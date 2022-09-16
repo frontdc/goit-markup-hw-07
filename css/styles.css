@@ -93,7 +93,7 @@ button {
 }
 
 
-.page-header-flex {
+.page-header--flex {
     display: flex;
     align-items: center;
     height: 80px;
@@ -125,7 +125,7 @@ button {
 
 
 
-.icon-header {
+.contacts-menu__icon {
     fill:currentColor;
     display: inline-flex;
     justify-content: baseline;
@@ -143,13 +143,13 @@ button {
     color: var(--logo-color);
 }
 
-.logo-header {
+.logo--black {
     margin-right: 93px;
     color: var(--logo-color);
     
 }
 
-.logo-accent {
+.logo--accent {
     color: var(--accent-color);
 }
 
@@ -162,13 +162,13 @@ button {
     display: inline-block;
 }
 
-.logo-footer:visited {
+.logo--white:visited {
     color: var(--logo-footer)
 }
 
 
 
-.logo-header, .logo-accent, .logo-footer {
+.logo--black, .logo--accent, .logo--white {
         font-family: 'Raleway', sans-serif;
         font-weight: 700;
         font-size: 26px;
@@ -197,14 +197,14 @@ button {
     color: var(--accent-color);
 }
 
-.nav-link.current {
+.nav-link--current {
     color: var(--accent-color);
     position: relative;
     padding-top: 32px;
     padding-bottom: 32px;
 }
 
-.current::after {
+.nav-link--current::after {
     content:"";
     display: block;
     position: absolute;
@@ -244,17 +244,12 @@ button {
         max-width: 1600px;
         margin: 0 auto;
         background-repeat: no-repeat;
-        background-position: center;
-       
-        
-       
-        
-
+        background-position: center;   
 }
 
 
 
-.hero-title {
+.hero__title {
         font-weight: 900;
         font-size: 44px;
         line-height: 1.36;
@@ -277,7 +272,7 @@ button {
       
 }
 
-.main-button {
+.hero__button {
         font-family: inherit;
         font-weight: 700;
         font-size: 16px;
@@ -305,8 +300,8 @@ button {
         
 }
 
-.main-button:hover,
-.main-button:focus {
+.hero__button:hover,
+.hero__button:focus {
     background-color: var(--mbutton-hover);
     
     cursor: pointer;
@@ -328,7 +323,7 @@ button {
 
 
 
-.pecularities-list {
+.pecularities__list {
     display: flex;
     column-gap: 30px;
 
@@ -336,14 +331,14 @@ button {
            
 }
 
-.pecularities-card {
+.pecularities__card {
     flex-basis: calc((100% - 90px) / 4);
 
     
 }
 
 
-.pecularities-icon {
+.pecularities__icon {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -359,7 +354,7 @@ button {
 
 
 
-.peculiarities-title {
+.peculiarities__title {
         
         font-size: inherit;
         line-height: 1.14;
@@ -373,7 +368,7 @@ button {
 
 
 
-.peculiarities-text {
+.peculiarities__text {
         line-height: 1.7;
         
         color: var(--secondary-txt-color);
@@ -393,7 +388,7 @@ button {
     margin-bottom: 50px;
 }
 
-.type-cards {
+.our-services__type-cards {
     display: flex;
     column-gap: 30px;
 
@@ -401,12 +396,12 @@ button {
 
 
 
-.type-card-wrapper {
+.our-services__type-cards-wrapper {
     position: relative;
 
 }
 
-.type-card-text {
+.our-services__type-card-text {
     position: absolute;
     bottom: 0%;
 
@@ -437,14 +432,14 @@ button {
     background-color: var(--white-color);
 }
 
-.team-list {
+.team__list {
     display: flex;
     column-gap: 30px;
 
     
 }
 
-.team-card {
+.team__card {
     flex-basis: calc((100% - 90px) / 4);
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -454,7 +449,7 @@ button {
     
 }
 
-.member-name {
+.team-card__member-name {
         font-weight: 500;
         font-size: 16px;
         line-height: 1.19;
@@ -464,7 +459,7 @@ button {
        
 }
 
-.job-title {
+.team-card__job-title {
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -475,7 +470,7 @@ button {
     padding-bottom: 16px;
 }
 
-.social-networks {
+.team-card__social-networks {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -487,7 +482,7 @@ button {
    
 }
 
-.social-networks-link {
+.social-networks__link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -506,13 +501,13 @@ button {
     
 }
 
-.social-networks-link:hover, 
-.social-networks-link:focus {
+.social-networks__link:hover, 
+.social-networks__link:focus {
     color: var(--white-color);
     background-color: var(--accent-color);
 }
 
-.icon {
+.social-networks__icon {
     fill: currentColor;
 }
 
@@ -528,7 +523,7 @@ button {
 
 
 
-.clients-link {
+.clients-list__link {
     width: 170px;
     height: 92px;
 
@@ -543,13 +538,13 @@ button {
     transition: color var(--transition-dur-and-func), border var(--transition-dur-and-func);
 }
 
-.clients-link:hover,
-.clients-link:focus {
+.clients-list__link:hover,
+.clients-list__link:focus {
     border: 1px solid var(--accent-color);
     color: var(--accent-color);
 }
 
-.clients-logo {
+.clients-list__logo {
     fill: currentColor;
 }
 
