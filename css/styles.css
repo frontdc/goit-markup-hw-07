@@ -550,7 +550,7 @@ button {
 
 
 
-footer {
+.page-footer {
     background-color: var(--secondary-bg-color);
 
     padding-top: 60px;
@@ -559,7 +559,7 @@ footer {
     
 }
 
-address .address-link {
+ .address__link {
     font-style: normal;
     font-weight: 400;
      line-height: 1.71;
@@ -571,7 +571,7 @@ address .address-link {
 
 
 
-address .address-item:not(:last-child) {
+.address__item:not(:last-child) {
     margin-bottom: 9px;
 }
 
@@ -579,12 +579,12 @@ address .address-item:not(:last-child) {
 
 
 
-address .contacts-link.rgba {
+.address__contacts-link.rgba {
     color: var(--footer-rgba-color);
 }
 
-address .contacts-link.rgba:hover,
-address .contacts-link.rgba:focus {
+ .address__contacts-link.rgba:hover,
+ .address__contacts-link.rgba:focus {
     color: var(--accent-color);
 }
 
@@ -592,7 +592,7 @@ address .contacts-link.rgba:focus {
      
 }
 
-.footer-flex {
+.page-footer--flex {
     
     display: flex;
     align-items: baseline;
@@ -604,7 +604,7 @@ address .contacts-link.rgba:focus {
 
 
 
-.footer-text {
+.join-us__text {
     
     font-weight: 700;
     line-height: 1.14;
@@ -615,7 +615,7 @@ address .contacts-link.rgba:focus {
     margin-bottom: 20px;
 }
 
-.social-footer-list {
+.join-us__social-list {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -630,7 +630,7 @@ address .contacts-link.rgba:focus {
 
 
 
-.social-footer-link {
+.join-us__social-link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -648,8 +648,8 @@ address .contacts-link.rgba:focus {
 
 }
 
-.social-footer-link:hover,
-.social-footer-link:focus {
+.join-us__social-link:hover,
+.join-us__social-link:focus {
     color: var(--white-color);
     background-color: var(--accent-color);
 }
@@ -985,7 +985,7 @@ address .contacts-link.rgba:focus {
 
 }
 
-.subscribe-title {
+.subscribe-form__title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -996,11 +996,11 @@ address .contacts-link.rgba:focus {
     margin-bottom: 20px;
 }
 
-.subscribe-label {
+.subscribe-form__label {
     
 }
 
-.subscribe-text-input {
+.subscribe-form__input {
     
         width: 358px;
         height: 50px;
@@ -1026,11 +1026,11 @@ address .contacts-link.rgba:focus {
 
 }
 
-.subscribe-text-input::placeholder {
+.subscribe-form__input::placeholder {
         color: var(--footer-rgba-color);
 }
 
-.footer-submit-button {
+.subscribe-form__submit-button {
         position: relative;    
 
         font-style: normal;
@@ -1056,8 +1056,8 @@ address .contacts-link.rgba:focus {
         transition: background-color var(--transition-dur-and-func);
 }
 
-.footer-submit-button:focus,
-.footer-submit-button:hover {
+.subscribe-form__submit-button:focus,
+.subscribe-form__submit-button:hover {
     
     background-color: var(--mbutton-hover);
     
@@ -1074,7 +1074,7 @@ address .contacts-link.rgba:focus {
     fill: currentColor;
 }
 
-.subscribe-icon {
+.subscribe-form__icon {
 
 }
 
