@@ -1,0 +1,54 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    color: var(--primary-txt-color);
+    background-color: var(--white-color);
+
+
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+ul,
+ol {
+    list-style: none;
+
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+
+    padding-left: 0;
+
+}
+
+img {
+    display: block;
+}
+
+
+a {
+    text-decoration: none;
+    font-style: normal;
+    /* Внизу - тест */
+    text-decoration-color: inherit;
+}
+
+/* 
+a:visited {
+    color: inherit;
+}
+ */
+
+button {
+    border: 0;
+}
