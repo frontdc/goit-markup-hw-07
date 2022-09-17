@@ -4,6 +4,10 @@
     margin-right: 93px;
     color: var(--logo-color);
 
+    &:visited {
+        color: var(--logo-color);
+        
+    }
 }
 
 .logo--accent {
@@ -14,10 +18,11 @@
 
 .logo--white {
     color: var(--logo-footer);
-}
 
-.logo--white:visited {
+
+    &:visited {
     color: var(--logo-footer)
+}
 }
 
 

@@ -95,6 +95,9 @@ button {
   margin-right: 93px;
   color: var(--logo-color);
 }
+.logo--black:visited {
+  color: var(--logo-color);
+}
 
 .logo--accent {
   color: var(--accent-color);
@@ -103,7 +106,6 @@ button {
 .logo--white {
   color: var(--logo-footer);
 }
-
 .logo--white:visited {
   color: var(--logo-footer);
 }
