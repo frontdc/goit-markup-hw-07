@@ -91,10 +91,6 @@ button {
   margin: -1px;
 }
 
-.logo {
-  color: var(--logo-color);
-}
-
 .logo--black {
   margin-right: 93px;
   color: var(--logo-color);
@@ -104,10 +100,8 @@ button {
   color: var(--accent-color);
 }
 
-.logo-footer {
+.logo--white {
   color: var(--logo-footer);
-  margin-bottom: 20px;
-  display: inline-block;
 }
 
 .logo--white:visited {
