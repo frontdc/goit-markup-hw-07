@@ -265,23 +265,23 @@
 
 <footer class="page-footer">
 
-    <div class="container footer-flex">
+    <div class="container page-footer--flex">
 
-        <div class="div-address">
+        <div class="page-footer__div-address">
             <a href="./index.html" class="logo--white"> <span class="logo--accent">Web</span>Studio </a>
 
             <!--ОбЪединяю все контакты в один список, так как это однотипный контент-->
             <address>
                 <ul>
-                    <li class="address-item">
-                        <a class="address-link" href="">м. Київ, пр-т Лесі Українки, 26</a>
+                    <li class="address__item">
+                        <a class="address__contacts-link rgba" href="">м. Київ, пр-т Лесі Українки, 26</a>
                     </li>
 
-                    <li class="address-item">
+                    <li class="address__contacts-link">
                         <a class="contacts-link rgba" href="mailto:info@example.com">info@example.com</a>
                     </li>
 
-                    <li class="address-item">
+                    <li class="address__contacts-link">
                         <a class="contacts-link rgba" href="tel:+380991111111">+38 099 111 11 11</a>
                     </li>
                 </ul>
@@ -290,10 +290,10 @@
 
 
         <div class="join-us">
-            <p class="footer-text">приєднуйтесь</p>
-            <ul class="social-footer-list">
+            <p class="join-us__text">приєднуйтесь</p>
+            <ul class="join-us__social-list">
                 <li>
-                    <a class="social-footer-link" href="#">
+                    <a class="join-us__social-link" href="#">
                         <svg class="social-networks__icon" width="20px" height="20px">
                             <use href="./images/icons.svg#icon-instagram"></use>
                         </svg>
@@ -301,7 +301,7 @@
                 </li>
 
                 <li>
-                    <a class="social-footer-link" href="#">
+                    <a class="join-us__social-link" href="#">
                         <svg class="social-networks__icon" width="20px" height="20px">
                             <use href="./images/icons.svg#icon-twitter"></use>
                         </svg>
@@ -309,7 +309,7 @@
                 </li>
 
                 <li>
-                    <a class="social-footer-link" href="#">
+                    <a class="join-us__social-link" href="#">
                         <svg class="social-networks__icon" width="20px" height="20px">
                             <use href="./images/icons.svg#icon-facebook"></use>
                         </svg>
@@ -317,7 +317,7 @@
                 </li>
 
                 <li>
-                    <a class="social-footer-link" href="#">
+                    <a class="join-us__social-link" href="#">
                         <svg class="social-networks__icon" width="20px" height="20px">
                             <use href="./images/icons.svg#icon-linkedin"></use>
                         </svg>
@@ -329,16 +329,16 @@
         <!-- Форма отправки e-mail -->
         <form class="subscribe-form">
 
-            <p class="subscribe-title">Підпишіться на розсилку</p>
+            <p class="subscribe-form__title">Підпишіться на розсилку</p>
 
-            <label class="subscribe-label">
-                <input type="email" class="subscribe-text-input" name="subscribe_email"
+            <label class="subscribe-form__label">
+                <input type="email" class="subscribe-form__input" name="subscribe_email"
                     pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="E-mail" />
             </label>
 
-            <button class="footer-submit-button" type="submit">Підписатися
-                <svg class="subscribe-svg" width="24px" height="24px">
-                    <use class="subscribe-icon" href="./images/icons.svg#icon-send"></use>
+            <button class="subscribe-form__submit-button" type="submit">Підписатися
+                <svg class="subscribe-form__svg" width="24px" height="24px">
+                    <use class="subscribe-form__icon" href="./images/icons.svg#icon-send"></use>
                 </svg>
             </button>
         </form>
