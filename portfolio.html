@@ -27,19 +27,19 @@
                 <a href="./index.html" class="logo--black"> <span class="logo--accent">Web</span>Studio </a>
     
                 <ul class="nav-menu">
-                    <li> <a class="nav-link" href="./index.html">Студія</a> </li>
-                    <li> <a class="nav-link--current" href="./portfolio.html">Портфоліо</a> </li>
-                    <li> <a class="nav-link" href="">Контакти</a> </li>
+                    <li> <a class="nav-menu__link" href="./index.html">Студія</a> </li>
+                    <li> <a class="nav-menu__link nav-menu__link--current" href="./portfolio.html">Портфоліо</a> </li>
+                    <li> <a class="nav-menu__link" href="">Контакти</a> </li>
     
                 </ul>
             </nav>
     
             <ul class="contacts-menu">
-                <li class="mail"><a class="contacts-link" href="mailto:info@devstudio.com">
+                <li class="contacts-menu__item mail"><a class="contacts-menu__link" href="mailto:info@devstudio.com">
                         <svg class="contacts-menu__icon" width="16px" height="12px">
                             <use href="./images/icons.svg#icon-envelope"></use>
                         </svg>info@devstudio.com</a></li>
-                <li><a class="contacts-link" href="tel:+380961111111">
+                <li class="contacts-menu__item"><a class="contacts-menu__link" href="tel:+380961111111">
                         <svg class="contacts-menu__icon" width="10px" height="16px">
                             <use href="./images/icons.svg#icon-smartphone"></use>
                         </svg>+38 096 111 11 11</a></li>
@@ -89,7 +89,7 @@
                             <div class="portfolio-card-wrapper">
                              <img
                                 class="card-image" 
-                                src="./portfolio_images/img1.jpg"
+                                src="./images/portfolio_images/img1.jpg"
                                 alt="Веб-сайт ТехноКряк"
                                 width="370"
                                 height="294">
@@ -107,7 +107,7 @@
                         <div class="portfolio-card-wrapper">
                             <img 
                                 class="card-image"
-                                src="./portfolio_images/img2.jpg" 
+                                src="./images/portfolio_images/img2.jpg" 
                                 alt="Дизайн постеру New Orlean versus Golden Star" 
                                 width="370" 
                                 height="294">
@@ -126,7 +126,7 @@
                         <div class="portfolio-card-wrapper">
                             <img
                                 class="card-image" 
-                                src="./portfolio_images/img3.jpg" 
+                                src="./images/portfolio_images/img3.jpg" 
                                 alt="Додаток для ресторану SeaFood" 
                                 width="370" 
                                 height="294">
@@ -145,7 +145,7 @@
                         <div class="portfolio-card-wrapper">
                             <img 
                                 class="card-image"    
-                                src="./portfolio_images/img4.jpg" 
+                                src="./images/portfolio_images/img4.jpg" 
                                 alt="Маркетинг-проєкт Prime" 
                                 width="370" 
                                 height="294">
@@ -163,7 +163,7 @@
                         <div class="portfolio-card-wrapper">
                             <img
                                 class="card-image" 
-                                src="./portfolio_images/img5.jpg" 
+                                src="./images/portfolio_images/img5.jpg" 
                                 alt="Додаток Boxes" 
                                 width="370" 
                                 height="294">
@@ -181,7 +181,7 @@
                         <div class="portfolio-card-wrapper">
                             <img
                                 class="card-image" 
-                                src="./portfolio_images/img6.jpg" 
+                                src="./images/portfolio_images/img6.jpg" 
                                 alt="Сайт Inspiration has no Borders" 
                                 width="370" 
                                 height="294">
@@ -199,7 +199,7 @@
                         <div class="portfolio-card-wrapper">
                             <img
                                 class="card-image" 
-                                src="./portfolio_images/img7.jpg" 
+                                src="./images/portfolio_images/img7.jpg" 
                                 alt="Дизайн-проєкт для видання Limited Edition" 
                                 width="370" 
                                 height="294">
@@ -217,7 +217,7 @@
                         <div class="portfolio-card-wrapper">
                             <img
                                 class="card-image" 
-                                src="./portfolio_images/img8.jpg" 
+                                src="./images/portfolio_images/img8.jpg" 
                                 alt="Маркетинг-проєкт LAB" 
                                 width="370" 
                                 height="294">
@@ -236,7 +236,7 @@
                         <div class="portfolio-card-wrapper">
                             <img 
                                 class="card-image"
-                                src="./portfolio_images/img9.jpg" 
+                                src="./images/portfolio_images/img9.jpg" 
                                 alt="Додаток Growing Business" 
                                 width="370" 
                                 height="294">
@@ -275,15 +275,15 @@
             <address>
                 <ul>
                     <li class="address__item">
-                        <a class="address__contacts-link rgba" href="">м. Київ, пр-т Лесі Українки, 26</a>
+                        <a class="address__contacts-link" href="">м. Київ, пр-т Лесі Українки, 26</a>
                     </li>
 
-                    <li class="address__contacts-link">
-                        <a class="contacts-link rgba" href="mailto:info@example.com">info@example.com</a>
+                    <li class="address__item">
+                        <a class="address__contacts-link--rgba" href="mailto:info@example.com">info@example.com</a>
                     </li>
 
-                    <li class="address__contacts-link">
-                        <a class="contacts-link rgba" href="tel:+380991111111">+38 099 111 11 11</a>
+                    <li class="address__item">
+                        <a class="address__contacts-link--rgba" href="tel:+380991111111">+38 099 111 11 11</a>
                     </li>
                 </ul>
             </address>
