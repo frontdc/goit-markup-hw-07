@@ -7,7 +7,7 @@
     position: relative;
 }
 
-.address__link {
+address .address__link {
     font-style: normal;
     font-weight: 400;
     line-height: 1.71;
@@ -19,20 +19,34 @@
 
 
 
-.address__item:not(:last-child) {
+address .address__item:not(:last-child) {
     margin-bottom: 9px;
 }
 
 
 
+.address__contacts-link {
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.71;
+    
+        color: var(--white-color);
 
-
-.address__contacts-link.rgba {
-    color: var(--footer-rgba-color);
+        &:visited {
+            color: var(--white-color);
+        }
 }
 
-.address__contacts-link.rgba:hover,
-.address__contacts-link.rgba:focus {
+
+
+.address__contacts-link--rgba {
+    color: var(--footer-rgba-color);
+    letter-spacing: 0.02em;
+    transition: color var(--transition-dur-and-func);
+}
+
+.address__contacts-link--rgba:hover,
+.address__contacts-link--rgba:focus {
     color: var(--accent-color);
 }
 

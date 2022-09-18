@@ -576,15 +576,25 @@ button {
 }
 
 
-
+.address__contacts-link{
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.71;
+    
+        color: var(--white-color);
+}
 
 
 .address__contacts-link.rgba {
+    
+}
+
+.address__contacts-link--rgba {
     color: var(--footer-rgba-color);
 }
 
- .address__contacts-link.rgba:hover,
- .address__contacts-link.rgba:focus {
+ .address__contacts-link--rgba:hover,
+ .address__contacts-link--rgba:focus {
     color: var(--accent-color);
 }
 

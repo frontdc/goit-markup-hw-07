@@ -66,6 +66,8 @@
     padding-top: 32px;
     padding-bottom: 32px;
 
+    
+
 
     &::after {
     content: "";
@@ -85,7 +87,7 @@
 
 .contacts-link {
     letter-spacing: 0.02em;
-
+    font-weight: 500;
     color: var(--secondary-txt-color);
 
     display: flex;

@@ -17,12 +17,13 @@
 
 
 .logo--white {
+    display: block;
     color: var(--logo-footer);
-
+    margin-bottom: 20px;
 
     &:visited {
-    color: var(--logo-footer)
-}
+    color: var(--logo-footer);
+    }
 }
 
 
